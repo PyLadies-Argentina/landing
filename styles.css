@@ -1,0 +1,217 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.palanquin-thin {
+    font-family: "Palanquin", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.palanquin-extralight {
+font-family: "Palanquin", sans-serif;
+font-weight: 200;
+font-style: normal;
+}
+
+.palanquin-light {
+font-family: "Palanquin", sans-serif;
+font-weight: 300;
+font-style: normal;
+}
+
+.palanquin-regular {
+font-family: "Palanquin", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.palanquin-medium {
+font-family: "Palanquin", sans-serif;
+font-weight: 500;
+font-style: normal;
+}
+
+.palanquin-semibold {
+font-family: "Palanquin", sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.palanquin-bold {
+font-family: "Palanquin", sans-serif;
+font-weight: 700;
+font-style: normal;
+}
+
+body {
+    font-family: "Palanquin", sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    background-color: #34495e;
+    color: white;
+    padding: 10px 0;
+}
+
+.logo {
+    width: 200px;
+    margin-right: 20px;
+}
+.nav {
+    font-family: "Palanquin", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+.nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.nav li {
+    margin-right: 20px;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav a:hover {
+    color: #ecf0f1;
+}
+
+/* Hero Section */
+.hero {
+    font-family: "Palanquin", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #c0392b;
+}
+
+/* About Us Section */
+.about-us {
+    background-color: #ecf0f1;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.shield {
+    max-width: 200px;
+    margin-top: 20px;
+}
+
+/* Events Section */
+.events {
+    padding: 50px 0;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #34495e;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin: 10px 0;
+}
+
+.contact-info a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-info a:hover {
+    color: #ecf0f1;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-links a {
+    font-size: 2rem;
+    color: white;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #ecf0f1;
+}
+
+/* Footer */
+.footer {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer p {
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav li {
+        margin: 10px 0;
+    }
+}
