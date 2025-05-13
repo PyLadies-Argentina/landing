@@ -14,8 +14,6 @@
     <!-- Header -->
     <header class="header">
         <div class="container">
-            <img src="https://github.com/PyLadies-Argentina/graphics/blob/main/png/pylady_argentina_blue.png?raw=true" 
-                alt="Logo de PyLadies Argentina" class="logo">
             <nav class="nav">
                 <ul>
                     <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
@@ -28,6 +26,8 @@
 
     <!-- Hero Section -->
     <section class="hero">
+        <img src="https://github.com/PyLadies-Argentina/graphics/blob/main/png/pylady_argentina_blue.png?raw=true" 
+        alt="Logo de PyLadies Argentina" class="logo">
         <div class="container">
             <h1>Bienvenidos a PyLadies Argentina</h1>
             <p>Comunidad para mujeres que quieren aprender y compartir Python.</p>
@@ -39,16 +39,18 @@
     <section id="sobre-nosotros" class="about-us">
         <div class="container">
             <h2>Sobre Nosotros</h2>
-            <p>Somos una comunidad inclusiva que fomenta el aprendizaje y el desarrollo en Python. 
-                Trabajamos juntas para construir un futuro más equitativo en la tecnología.</p>
+            <p>Somos una comunidad inclusiva que fomenta el aprendizaje y el desarrollo en Python.</p> 
+            <p>Trabajamos juntas para construir un futuro más equitativo en la tecnología.</p>
         </div>
     </section>
 
     <!-- Events Section -->
     <section id="eventos" class="events">
-        <div class="container">
-            <h2>Próximos Eventos</h2>
-            <div id="calendar"></div>
+        <h2 id="upcoming-title" style="text-align:center; padding: 10px 20px; font-size: 1.5em; color: #333;">
+            Siguientes eventos
+        </h2>
+        <div class="event-container" id="event-container">
+            <!-- Cards will be inserted here -->
         </div>
     </section>
 
@@ -83,6 +85,6 @@
     </footer>
 
     <!-- Calendar Script -->
-    <script src="calendar.js"></script>
+    <script src="js/calendar.js"></script>
 </body>
 </html>
